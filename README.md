@@ -90,12 +90,12 @@ After that the school district analysis was repeated with modified data and this
 
 * We don't see any impact here when rounded off to whole number.
 
-## Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+## Summary: Summarize changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
-(1) 
+(1) District performance slighltly dipped.
 
-(2) For the same buckets of ($586-$630) and ($631-$645), the average math and reading score, and the math,reading and combined passing percentage numbers increased. That means schools would require students to have better score to be in same budget category of state.
+(2) Thomas High School's performance slightly dipped when only 10-12th standards were considered.
 
-(3)
+(3) Thomas High school's 9th graders couldn't be compared to their fellow 9th graders from other schools. Their performance wasn't compared to their peers.
 
-(4)
+(4) For the same buckets of ($586-$630) and ($631-$645), the average math and reading score, and the math,reading and combined passing percentage numbers increased. That means schools would require students to have better score to be in same budget category of state.
