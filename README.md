@@ -52,13 +52,13 @@ After that the school district analysis was repeated with modified data and this
         
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-![school_sum_inc_ninth](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_inc_ninth.PNG)
-
 * When considered their 9th graders in the total student count for Thomas High school, their performance dropped to level of few other low performing schools
 
-![school_sum_NOT_inc_ninth](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_NOT_inc_ninth.PNG)
+![school_sum_inc_ninth](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_inc_ninth.PNG)
 
 * When only their 10th - 12th graders were considered in the total student count for Thomas High school, their performance was comparable to other high performing schools
+
+![school_sum_NOT_inc_ninth](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_NOT_inc_ninth.PNG)
 
 * Average reading and math scores were not changed much 
 
