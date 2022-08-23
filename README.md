@@ -66,27 +66,27 @@ After that the school district analysis was repeated with modified data and this
 
 #### Math and reading scores by grade
 
-![math_read_score_by_grade_old](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_NOT_inc_ninth.PNG)
+![math_read_score_by_grade_old](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/math_read_score_by_grade_old.PNG)
 
-![math_read_score_by_grade](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_NOT_inc_ninth.PNG)
+![math_read_score_by_grade](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/math_read_score_by_grade.PNG)
 
 * By replacing NaNs for 9th graders, the mean is showing as NaN only for 9th graders for Thomas High Schools
 
 #### Scores by school spending
 
-![school_spending_score_before_After](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_NOT_inc_ninth.PNG)
+![school_spending_score_before_After](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_spending_score_before_After.PNG)
 
 * For the same buckets of ($586-$630) and ($631-$645), the average math and reading score, and the math,reading and combined passing percentage numbers increased. That means schools would require students to have better score to be in same budget category of state.
 
 #### Scores by school size
 
-![size_score_before_After](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_NOT_inc_ninth.PNG)
+![size_score_before_After](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/size_score_before_After.PNG)
 
 * We don't see any impact here when rounded off to whole number.
 
 #### Scores by school type
 
-![type_score_before_After](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_NOT_inc_ninth.PNG)
+![type_score_before_After](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/type_score_before_After.PNG)
 
 * We don't see any impact here when rounded off to whole number.
 
