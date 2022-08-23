@@ -18,7 +18,7 @@ In addition, the school board had notified Maria and her supervisor that the dat
 After that the school district analysis was repeated with modified data and this report describes how these changes affected the overall analysis.
 
 
-## Results: Using bulleted lists and images of DataFrames as support, address the following questions.
+## Results: Addressing the following questions using bulleted lists and images of DataFrames as support
 
 ### How is the district summary affected?
 
@@ -28,7 +28,7 @@ After that the school district analysis was repeated with modified data and this
         
 * The PERCENTAGE math, reading and combined were calculated using the count after subtracting Thomas high school ninth graders count from total student count. The impact is that all these three new percentages got slightly pulled down as seen in the comparison images above.
 
-* The AVERAGE math and reading scores were calculated using all students, including the ninth graders of Thomas high school. Since ninth graders math and reading scores were modified to NaNs, the new percenatges got pulled down(can be seen in previos image). For reading average, unformatted averages(shown in below image) have been compared as they round to same number: 
+* The AVERAGE math and reading scores were calculated using all students, including the ninth graders of Thomas high school. Since ninth graders math and reading scores were modified to NaNs, the new percenatges got pulled down(can be seen in previous comparison image). For reading average, unformatted averages(shown in below image) have been compared as they round to same number: 
 
 ![dist_summary_unformat](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/dist_summary_unformat.PNG)
 
@@ -43,7 +43,7 @@ After that the school district analysis was repeated with modified data and this
 
 * The average reading score very slightly improved
 
-* The passing percentage for math, reading and overall significantly dropped for Thomas High school as the percentage accounted for all Thomas High school's students including 9th graders whose scores were modified to NaNs(equal to 0) 
+* The passing percentage for math, reading and overall (math and reading combined) significantly dropped for Thomas High school as the percentage was calculated using all Thomas High school's students' count including 9th graders whose scores were modified to NaNs. 
 
 * When we considered only Thomas high school's 10th to 12th graders in total school count for the same school, we saw the passing percentages for math, reading and overall improved (as seen in image below)
 
@@ -52,23 +52,50 @@ After that the school district analysis was repeated with modified data and this
         
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-* When considered their 9th graders in the total student count for Thomas High school, their performance dropped to level of few other low performing schools
+* When considered their 9th graders in the total student count for Thomas High school, their performance dropped to lower performing schools' level (see in image below)
 
 ![school_sum_inc_ninth](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_inc_ninth.PNG)
 
-* When only their 10th - 12th graders were considered in the total student count for Thomas High school, their performance was comparable to other high performing schools
+* When only their 10th - 12th graders were considered in the total student count for Thomas High school, their performance was comparable to other high performing schools. (see in image below)
 
-![school_sum_NOT_inc_ninth](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_NOT_inc_ninth.PNG)
+![school_sum_NOT_inc_ninth](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_NOT_inc_ninth.PNG) 
 
-* Average reading and math scores were not changed much 
+* Average reading and math scores of Thomas High school were not impacted much with NaNs modification (as discussed in the school summary section above); therefore, these don't play role in this section.
 
 ### How does replacing the ninth-grade scores affect the following:
-    * Math and reading scores by grade
-    * Scores by school spending
-    * Scores by school size
-    * Scores by school type
 
+#### Math and reading scores by grade
+
+![math_read_score_by_grade_old](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_NOT_inc_ninth.PNG)
+
+![math_read_score_by_grade](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_NOT_inc_ninth.PNG)
+
+* By replacing NaNs for 9th graders, the mean is showing as NaN only for 9th graders for Thomas High Schools
+
+#### Scores by school spending
+
+![school_spending_score_before_After](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_NOT_inc_ninth.PNG)
+
+* For the same buckets of ($586-$630) and ($631-$645), the average math and reading score, and the math,reading and combined passing percentage numbers increased. That means schools would require students to have better score to be in same budget category of state.
+
+#### Scores by school size
+
+![size_score_before_After](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_NOT_inc_ninth.PNG)
+
+* We don't see any impact here when rounded off to whole number.
+
+#### Scores by school type
+
+![type_score_before_After](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_NOT_inc_ninth.PNG)
+
+* We don't see any impact here when rounded off to whole number.
 
 ## Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
 (1) 
+
+(2) For the same buckets of ($586-$630) and ($631-$645), the average math and reading score, and the math,reading and combined passing percentage numbers increased. That means schools would require students to have better score to be in same budget category of state.
+
+(3)
+
+(4)
