@@ -20,49 +20,49 @@ After that the school district analysis was repeated with modified data and this
 
 ## Results: Using bulleted lists and images of DataFrames as support, address the following questions.
 
-* How is the district summary affected?
+### How is the district summary affected?
 
-![dist_summary_before_after](https://github.com/Meghajain84/stock-analysis/blob/main/Resources/refactor_code_loop_screenshot.PNG)
+![dist_summary_before_after](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/dist_summary_before_after.PNG)
     
-        (a)  There is no impact on total schools count, students count and budget
+* There is no impact on total schools count, students count and budget
+        
+* The PERCENTAGE math, reading and combined were calculated using the count after subtracting Thomas high school ninth graders count from total student count. The impact is that all these three new percentages got slightly pulled down as seen in the comparison images above.
 
-        (b)  The PERCENTAGE math, reading and combined were calculated using the count after subtracting Thomas high school ninth graders count from total student count. The impact is that all these three new percentages got slightly pulled down as seen in the comparison images above.
+* The AVERAGE math and reading scores were calculated using all students, including the ninth graders of Thomas high school. Since ninth graders math and reading scores were modified to NaNs, the new percenatges got pulled down(can be seen in previos image). For reading average, unformatted averages(shown in below image) have been compared as they round to same number: 
 
-        (c) The AVERAGE math and reading scores were calculated using all students, including the ninth graders of Thomas high school. Since ninth graders math and reading scores were modified to NaNs, the new percenatges got pulled down(can be seen in previos image). For reading average, unformatted averages(shown in below image) have been compared as they round to same number: 
+![dist_summary_unformat](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/dist_summary_unformat.PNG)
 
-![dist_summary_unformat](https://github.com/Meghajain84/stock-analysis/blob/main/Resources/refactor_code_loop_screenshot.PNG)
-
-        (d) Overall the district summary shows slighly less performace in scores and percentages after the NaNs modifictaion.
+* Overall the district summary shows slighly less performace in scores and percentages after the NaNs modifictaion.
 
     
-* How is the school summary affected?
+### How is the school summary affected?
 
-![school_summary_inc_ninth](https://github.com/Meghajain84/stock-analysis/blob/main/Resources/refactor_code_loop_screenshot.PNG)
+![school_summary_inc_ninth](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_summary_inc_ninth.PNG)
     
-        (a) The average math score very slightly dropped
+* The average math score very slightly dropped
 
-        (b) The average reading score very slightly improved
+* The average reading score very slightly improved
 
-        (c) The passing percentage for math, reading and overall significantly dropped for Thomas High school as the percentage accounted for all Thomas High school's students including 9th graders whose scores were modified to NaNs(equal to 0) 
+* The passing percentage for math, reading and overall significantly dropped for Thomas High school as the percentage accounted for all Thomas High school's students including 9th graders whose scores were modified to NaNs(equal to 0) 
 
-        (d) When we considered only Thomas high school's 10th to 12th graders in total school count for the same school, we saw the passing percentages for math, reading and overall improved (as seen in image below)
+* When we considered only Thomas high school's 10th to 12th graders in total school count for the same school, we saw the passing percentages for math, reading and overall improved (as seen in image below)
 
-![ninth_graders_in_not_school_sum](https://github.com/Meghajain84/stock-analysis/blob/main/Resources/refactor_code_loop_screenshot.PNG)
+![ninth_graders_in_not_school_sum](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/ninth_graders_in_not_school_sum.PNG)
     
         
-* How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-![school_sum_inc_ninth](https://github.com/Meghajain84/stock-analysis/blob/main/Resources/refactor_code_loop_screenshot.PNG)
+![school_sum_inc_ninth](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_inc_ninth.PNG)
 
-        (a) When considered their 9th graders in the total student count for Thomas High school, their performance dropped to level of few other low performing schools
+* When considered their 9th graders in the total student count for Thomas High school, their performance dropped to level of few other low performing schools
 
-![school_sum_NOT_inc_ninth](https://github.com/Meghajain84/stock-analysis/blob/main/Resources/refactor_code_loop_screenshot.PNG)
+![school_sum_NOT_inc_ninth](https://github.com/Meghajain84/School_District_Analysis/blob/main/Resources/school_sum_NOT_inc_ninth.PNG)
 
-        (b) When only their 10th - 12th graders were considered in the total student count for Thomas High school, their performance was comparable to other high performing schools
+* When only their 10th - 12th graders were considered in the total student count for Thomas High school, their performance was comparable to other high performing schools
 
-        (c) Average reading and math scores were not changed much 
+* Average reading and math scores were not changed much 
 
-* How does replacing the ninth-grade scores affect the following:
+### How does replacing the ninth-grade scores affect the following:
     * Math and reading scores by grade
     * Scores by school spending
     * Scores by school size
